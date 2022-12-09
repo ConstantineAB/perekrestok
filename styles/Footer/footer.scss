@@ -1,0 +1,78 @@
+.footer {
+    margin: 0 auto;
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+
+    &__description {
+        &__logo {
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        &__subtitle {
+            font-size: 18px;
+            font-weight: 700;
+            color: #808080;
+        }
+    }
+    &__useful-links {
+        &__title {
+            font-size: 25px;
+            font-weight: 700;
+            margin: 10px;
+        }
+        &__column1 {
+            &__item {
+                cursor: pointer;
+                margin: 10px;
+            }
+            a {
+                font-size: 18px;
+                font-weight: 700;
+                color: #808080;
+            }
+        }
+    }
+    &__support-links {
+        a {
+            font-size: 18px;
+            font-weight: 700;
+            color: #808080;
+            cursor: pointer;
+        }
+        &__title {
+            font-size: 25px;
+            font-weight: 700;
+            margin: 10px;
+        }
+        li {
+            list-style-image: url(../public/img//Vector.png) !important;
+            margin-left: 25px;
+        }
+    }
+    &__newsletter {
+        &__title {
+            font-size: 25px;
+            font-weight: 700;
+            margin: 10px;
+        }
+        a {
+            font-size: 18px;
+            font-weight: 700;
+            color: #808080;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 385px) {
+    .footer__description {
+        margin: 0 auto;
+    }
+}

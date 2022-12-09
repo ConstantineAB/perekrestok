@@ -1,0 +1,135 @@
+.header {
+  margin: 0 auto;
+  &__main {
+    width: 50%;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    &__telephone {
+      margin: 10px;
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+    }
+  }
+  &__container {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
+@media (max-width: 700px) {
+  .header__main {
+    width: 100vw;
+  }
+}
+.nav {
+    min-height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ff8000;
+    &__container {
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo__img {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+  .nav-list li {
+    margin: 7.5px 7.5px 7.5px 42px;
+    cursor: pointer;
+  }
+  .icon-nav {
+    width: max-content;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .icon-nav img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .icon-nav div {
+    margin-left: 25px;
+  }
+
+  .nav-list_item_dropdown {
+    position: relative;
+    width: max-content;
+    &_button {
+      margin: 7.5px 7.5px 7.5px 42px;
+    }
+    &_items {
+      position: absolute; 
+      width: max-content;
+      display: flex;
+      flex-direction: column;
+      right: 0; 
+      z-index: 50;
+      background-color: white;
+      border: 25px solid white;
+    }
+    &_items a {
+      color: #ff8800;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    &_items div {
+      color: #ff8800;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+  }
+
+  .basket {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    width: max-content;
+    height: 24px;
+    cursor: pointer;
+  }
+  .basket span {
+    margin: auto 0;
+  }
+  .basket__number {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: -6px;
+    bottom: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    background-color: #ea0025;
+    border-radius: 15px;
+  }

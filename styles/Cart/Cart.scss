@@ -1,0 +1,164 @@
+.contact__form {
+}
+.contact__form input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: solid #ffa000;
+}
+.contact__modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.contact__form h2 {
+  color: #ff6600;
+  margin-bottom: 15px;
+}
+.contact__form p {
+  margin-bottom: 15px;
+}
+.cart-item__contact__form h3 {
+  margin-bottom: 15px;
+}
+.cart-item__contact__form input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: solid #ffa700;
+}
+.cart-item__contact__form p {
+  margin-top: 15px;
+}
+.modal__button__item {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.modal__button {
+  font-size: 25px;
+  color: #ff5100;
+  font-weight: 700;
+}
+
+.ReactModal__Content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.close__button {
+  margin: 15px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #ff6600;
+}
+.go__button {
+  margin: 15px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #51ff00;
+}
+
+.modal__open {
+  z-index: 10;
+}
+
+.cart__item {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  max-width: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.product-block__image {
+  width: 200px;
+  height: 200px;
+}
+
+.cart-wrapper {
+  margin: 0 auto;
+  padding-top: 50px;
+  max-width: 1200px;
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container--cart {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart {
+  width: 100%;
+}
+.cart__item div {
+  margin: 15px;
+}
+.cart__item-count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart--empty {
+  width: max-content;
+  margin: 0 auto;
+}
+.cart--empty div {
+  margin-bottom: 15px;
+}
+.cart--empty p {
+  margin-bottom: 15px;
+}
+
+.cart__clear {
+  cursor: pointer;
+}
+
+.cart__bottom {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.cart__bottom-details {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+.cart__bottom-details span {
+  margin: 15px;
+}
+.cart__bottom-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+.cart__bottom-buttons button {
+  margin: 15px;
+}
+.cart__bottom-buttons a {
+  margin: 15px;
+}
